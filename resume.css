@@ -1,11 +1,12 @@
 body {
+  font-size: 1em;
   font-family: "Roboto";
 }
 h1 {
   margin: 0;
   float: left;
   font-family: "Roboto Slab";
-  font-size: 2em;
+  font-size: 1.75em;
   font-weight: normal;
 }
 
@@ -22,11 +23,12 @@ h3 {
   font-family: "Roboto Slab";
   font-weight: normal;
   margin-bottom: 2.5px;
-  font-size: 1.2em;
+  font-size: 1.25em;
 }
 
 h3 + h3 {
   float: right;
+  font-size: 1em;
 }
 
 h4 {
@@ -38,6 +40,7 @@ h4 {
 ul {
   margin: 0;
   clear: both;
+  padding-left: 25px;
 }
 
 section {
@@ -49,6 +52,11 @@ section {
 section h2 {
   border-bottom: 1px solid black;
   margin-bottom: 5px;
+}
+
+.tools {
+  padding-left: 25px;
+
 }
 
 .contact {
@@ -64,7 +72,3 @@ section h2 {
   margin-bottom: 5px;
 }
 
-.small {
-  font-size: 1.1em;
-  font-family: "Roboto";
-}
